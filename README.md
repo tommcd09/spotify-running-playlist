@@ -8,7 +8,7 @@ Spotify maintains a large amount of data on its songs that is accessible through
 
 ## Project Organization
 
-The SQLite database used in this project contains about 600k tracks and 1 million artists. It is very large and is therefore not included in the repository. However, it can be built using the code in my [spotify-database repository](https://github.com/tommcd09/spotify-database). The rest of the project is organized as follows:
+The SQLite database used in this project contains about 600k tracks and 1 million artists. It is very large and is therefore not included in the repository. However, it can be built using the code in my [spotify-database repository](https://github.com/tommcd09/spotify-database). There is also a config.py file that contains credentials and other sensitive information. This is also not included with the repository but can easily be recreated. The rest of the project is organized as follows:
 
 * The extract_current_playlist notebook covers extracting data on my current running playlist from Spotify.
 * The exploratory_analysis notebook covers exploring the data from my current running playlist and drawing insights on how to search for new songs.
