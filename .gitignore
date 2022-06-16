@@ -1,0 +1,6 @@
+.DS_Store
+running_playlist/
+config.py
+spotify.db
+.ipynb_checkpoints/
+*.pyc
